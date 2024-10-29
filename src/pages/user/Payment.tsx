@@ -49,7 +49,7 @@ export default function Payment() {
             </button>
             <button
               onClick={() => setSelectedPlan('yearly')}
-              className={<boltAction type="file" filePath="src/pages/user/Payment.tsx">              className={`px-6 py-2 rounded-md ${
+              className={`px-6 py-2 rounded-md ${
                 selectedPlan === 'yearly'
                   ? 'bg-indigo-600 text-white'
                   : 'bg-gray-100 text-gray-600'
